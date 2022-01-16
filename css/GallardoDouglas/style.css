@@ -1,0 +1,123 @@
+.img-servicios{
+    width: 300px;
+    height: 200px;
+}
+
+.columna{
+    float: left;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.section-servicios, p{
+    clear: left;
+}
+
+.section-servicios{
+    margin-top: 50px;
+}
+
+.service-container{
+    text-align: center;
+}
+
+#container-main{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.font-body{
+    font-family: "Fira Sans",sans-serif;
+    
+}
+
+.footer{
+    clear: right;
+    clear: left;
+}
+
+#btn-solicitar{
+    margin-top: 30px;
+}
+
+.button{
+    width: 210px;
+    height: 70px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: #154686;
+    color: white;
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#formulario ul{
+    list-style: none;
+}
+
+#formulario li{
+    margin-bottom: 10px;
+}
+
+.form input{
+    margin-left: auto;
+}
+
+select, input, textarea{
+    font-size: large;
+}
+
+#formulario {
+    font-size: large;
+    
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    /*border: 1px solid #CCC;*/
+    border-radius: 1em;
+}
+
+#info-servicio{
+    padding-right: 100px;
+    text-align: center;
+}
+
+#info-servicio img{
+    margin-top: 20px;
+}
+
+#contenedor{
+    width: 80%;
+    margin:auto;
+}
+
+#galeria{
+    display:grid;
+    grid-template-rows: 240px 240px 260px;/*altura de las filas*/
+    grid-template-columns: 30% 30% 30%;/* ancho de las columnas*/
+    grid-gap: 15px 5px;/*row gap column gap*/
+}
+
+.elemento{
+    text-align: center;
+    
+}
+
+.elemento img{
+    width: 160px;
+    height: 160px;
+}
+
+.esp-container{
+    width: 80%;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
