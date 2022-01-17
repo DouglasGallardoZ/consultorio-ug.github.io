@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
 </head>
 <body class="font-body">
+    <script src="../js/Form-GutierrezDennis.js"></script>
     <h2 style="text-align: center; padding-top: 40px;">Consultorio Médico Universitario</h2>
     <div>
         <nav>
-         <ul class="menuSuperior">  
-             <li><a href="" class="menuSuperior"><img src="../src/images/Ug.png" alt="ug" width="100" height="100"/></a></li>    
-             <li> <a  href ="PreciadoRonald.html" class="menuSuperior">Inicio</a></li><!--  <img src="../src/images/../src/images/omicron.jpeg" alt="omicronn"/> -->
-             <li> <a href ="GutierrezDennis.html" class="menuSuperior">Consejos médicos</a></li><!-- comment -->
-             <li> <a href ="GallardoDouglas.html" class="menuSuperior">Servicios clínicos</a></li><!-- comment -->
-             <li> <a href ="TapiaJonathan.html" class="menuSuperior">Promociones</a></li>   
-        </ul>
+            <ul class="menuSuperior">  
+                <li><a href="" class="menuSuperior"><img src="../src/images/Ug.png" alt="ug" width="100" height="100"/></a></li>    
+                <li> <a  href ="index.html" class="menuSuperior">Inicio</a></li><!--  <img src="../src/images/../src/images/omicron.jpeg" alt="omicronn"/> -->
+                <li> <a href ="GutierrezDennis.html" class="menuSuperior">Consejos médicos</a></li><!-- comment -->
+                <li> <a href ="GallardoDouglas.html" class="menuSuperior">Servicios clínicos</a></li><!-- comment -->
+                <li> <a href ="TapiaJonathan.html" class="menuSuperior">Promociones</a></li>  
+                <li> <a href ="GallardoDouglasEspecialidades.html" class="menuSuperior">Especialidades</a></li> 
+           </ul>
         </nav>
     </div>
 
@@ -32,28 +34,28 @@
         <img src="../src/images/darOpinion.jpg" alt="Danos tu opinión" width="600" height="480" style="position: absolute;top: 50%; left: 50%;">
     </div>
     <div id="formulario" class="columna">
-        <form class="form">
+        <form class="form" action="">
             <ul>
-                <li><label>Nombres <input type="text" name="nombre" size="40"></label></li>
-                <li><label>Apellidos <input type="text" name="apellido" size="40"> </label></li>
-                <li><label>Correo <input type="text" name="correo" size="40"> </label></li>
-                <li><label>Celular <input type="text" name="celular" size="40"> </label></li>
+                <li><label for="name">Nombres <input type="text"  size="40" id="name"></label></li>
+                <li><label for="lastName">Apellidos <input type="text" name="apellido" size="40" id="lastName"> </label></li>
+                <li><label for="email">Correo <input type="text" name="correo" size="40" id="email"> </label></li>
+                <li><label for="phone">Celular <input type="text" name="celular" size="40" id="phone"> </label></li>
                 <li>
-                    <label>
+                    <label for="age">
                         ¿Eres mayor de edad?
-                        <select name="cmb-edad" >
-                            <option value="Seleccione" selected>Seleccione</option>
-                            <option value="Si">Si</option>
-                            <option value="No">No</option>
+                        <select name="cmb-edad" id="age">
+                            <option value="0" selected>Seleccione</option>
+                            <option value="1">Si</option>
+                            <option value="2">No</option>
                         </select>
                     </label>
                 </li>
                 <li>
-                    <label>Dinos tu opinión<textarea name="textarea" rows="8" cols="52"> </textarea> </label>
+                    <label for="comment">Dinos tu opinión<textarea name="textarea" rows="8" cols="52" id="comment"> </textarea> </label>
                 </li>
                 <li>
                     <div id="btn-darOpinion">
-                        <button class="button" type="submit">Enviar opinión</button>
+                        <button class="button" type="button" value="validar" onclick="validar()">Enviar opinión</button>
                     </div>
                 </li>
             </ul>
