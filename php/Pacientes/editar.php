@@ -54,7 +54,7 @@
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Cedula</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" name="txtCedula" value="<?php echo $fila['cedula'] ?>">
+                        <input class="form-control" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="txtCedula" maxlength="10" value="<?php echo $fila['cedula'] ?>">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -72,7 +72,7 @@
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Celular</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" name="txtCelular" value="<?php echo $fila['celular'] ?>">
+                        <input class="form-control" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10" name="txtCelular" value="<?php echo $fila['celular'] ?>">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -147,8 +147,6 @@
             }else{
                 echo "<h1>Error</h1>";
             }
-        } else{
-            echo '<script language="javascript">alert("Debe llenar los campos");</script>';
         }
         ?>
 

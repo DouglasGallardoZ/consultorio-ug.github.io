@@ -40,7 +40,7 @@
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Cedula</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" name="txtCedula">
+                        <input class="form-control" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="txtCedula" maxlength="10">
                     </div>
                 </div>
                 <div class="form-group row">
@@ -58,7 +58,7 @@
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Celular</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" name="txtCelular">
+                        <input class="form-control" type="text" name="txtCelular" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10">
                     </div>
                 </div>
                 <div class="form-group row">

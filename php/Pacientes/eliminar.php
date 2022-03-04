@@ -89,9 +89,7 @@
             }else{
                 echo "<h1>Error</h1>";
             }
-        } else{
-            echo '<script language="javascript">alert("Debe llenar los campos");</script>';
-        }
+        } 
         ?>
 
 
