@@ -22,9 +22,7 @@
                 <li><a href="#">Formularios CRUD</a>
                 <ul class="submenu">
                     <li><a href="../Pacientes/Form-PacientesPresentar.php">Pacientes</a></li>
-                    <li><a href="">Aplicacion 2</a></li>
-                    <li><a href="">Aplicacion 3</a></li>
-                    <li><a href="">Aplicacion 4</a></li>
+                    <li><a href="../GutierrezDennis/index.php">Inventario Medicamentos</a></li>
                 </ul>  
             </li>
             </ul>
