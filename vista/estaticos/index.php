@@ -7,7 +7,7 @@
         </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
+        <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
     </head>
     <body>
         
@@ -15,11 +15,11 @@
     <div>
         <nav>
         <?php
-            include_once "../php/templates/header-2.php"
+            include_once "../templates/header-2.php"
         ?>
    
             <div class="Imagen">
-                 <img src="../src/images/profesionales.jpeg" alt="prof"/>
+                 <img src="../../assets/src/images/profesionales.jpeg" alt="prof"/>
             </div>
        
         </nav>
@@ -28,14 +28,14 @@
     <div class="enlace">
         <center>
              <h3>Si eres estudiante de la Ug puedes solicitar tu ficha medica</h3>
-         <a href="FormularioPresiado.php"><img src="../src/images/ficha2.jpeg" alt="ug" width="90" height="90"/></a>
+         <a href="FormularioPresiado.php"><img src="../../assets/src/images/ficha2.jpeg" alt="ug" width="90" height="90"/></a>
 
         </center>
        
     </div>
    
     <?php
-            include_once "../php/templates/footer-2.php"
+            include_once "../templates/footer-2.php"
         ?>
    
    
