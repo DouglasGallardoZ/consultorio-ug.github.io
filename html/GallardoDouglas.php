@@ -9,23 +9,10 @@
 </head>
 <body class="font-body">
 
-    <h2 style="text-align: center; padding-top: 40px;">Consultorio Médico Universitario</h2>
-       
-   <div>
-       <nav>
-           
-        <ul class="menuSuperior">  
-            <li><a href="" class="menuSuperior"><img src="../src/images/Ug.png" alt="ug" width="100" height="100"/></a></li>    
-            <li> <a  href ="index.html" class="menuSuperior">Inicio</a></li><!--  <img src="../src/images/../src/images/omicron.jpeg" alt="omicronn"/> -->
-            <li> <a href ="GutierrezDennis.html" class="menuSuperior">Consejos médicos</a></li><!-- comment -->
-            <li> <a href ="GallardoDouglas.html" class="menuSuperior">Servicios clínicos</a></li><!-- comment -->
-            <li> <a href ="TapiaJonathan.html" class="menuSuperior">Promociones</a></li>  
-            <li> <a href ="GallardoDouglasEspecialidades.html" class="menuSuperior">Especialidades</a></li> 
-       </ul>
-          
-      
-       </nav>
-   </div>
+        <?php
+            include_once "../php/templates/header-2.php"
+        ?>
+   
 
 
     <div id="container-main">
@@ -108,7 +95,7 @@
 
         <div id="btn-solicitar">
 
-            <form action="Form-GallardoDouglas.html">
+            <form action="Form-GallardoDouglas.php">
                 <button class="button">Solicitar servicio</button>
             </form>
 
@@ -118,75 +105,9 @@
     </div>
 
 
-
-    <footer class="footer">
-        <div class="container_all">
-            
-        
-             
-        <div class="container_body">
-           
-          <div class="column1">
-              <h1>
-                  Politicas de calidad
-              </h1>
-              <p>
-            Brindamos servicio de arrendamiento de consultorios por consulta
-            para ello tenemos consultorios implementados para que usted pueda
-            atender cómodamente a sus pacientes, además, servicio de garaje 
-            por el tiempo que tome su consulta.
-     
-                 
-              </p>
-        </div>
-            <div class="column2">
-                 <h1>
-                  Redes Sociales
-              </h1>
-                <div class="row1">
-                    <img src="../src/images/fcbk.png" alt="facebook"><!-- Av. Delta s/n y Av. Kennedy Guayaquil, Guayas, Ecuador-->
-                    <label>
-                        Universidad de Guayaquil
-                    </label>
-                </div>
-                 <div class="row2">
-                    <img src="../src/images/instagram.jpeg" alt="instagram"><!-- Av. Delta s/n y Av. Kennedy Guayaquil, Guayas, Ecuador-->
-                    <label>
-                        Universidad de Guayaquil
-                    </label>
-                </div>
-            </div>
-            <div class="column3">
-                <h1>
-                    Informacion Contacto
-                </h1>
-                <div class="row3"> 
-                     <img src="../src/images/ubicacion.png"  alt="ubicacion"><!---->
-                    <label>
-                         Av. Delta s/n y Av. Kennedy 
-                         Guayaquil, Guayas, Ecuador
-                    </label>
-                </div>
-                
-            </div>
-           
-            
-        </div>
-       <div class="container-footer">
-                <div class="copyrigth">
-                    2021 Taller Grupal #6 |<a
-                        href="">Desarrollo Web</a>
-                </div>
-                <div class="information">
-                    <a href="" class="information">Informacion Universidad </a>|
-                    <a href="" class="information"> Privacion y Politica </a>|
-                    <a href="" class="information"> Terminos y condiciones</a>|
-                </div>
-            </div>
-        </div>
-          
-    </footer>
-
+    <?php
+            include_once "../php/templates/footer-2.php"
+        ?>
 
 </body>
 </html>
