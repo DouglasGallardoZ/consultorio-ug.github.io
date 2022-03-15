@@ -23,6 +23,7 @@
                 <ul class="submenu">
                     <li><a href="../Pacientes/Form-PacientesPresentar.php">Pacientes</a></li>
                     <li><a href="../GutierrezDennis/index.php">Inventario Medicamentos</a></li>
+                    <li><a href="../../html/Form-Tapia Ramos.php">Descuentos Pacientes</a></li>
                 </ul>  
             </li>
             </ul>

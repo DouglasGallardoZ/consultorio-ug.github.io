@@ -25,7 +25,7 @@
 <div>
 <header>
         <nav class="navegacion">
-            <ul class="menu">
+        <ul class="menu">
                 <li><a href="" class="menuSuperior"><img src="../src/images/Ug.png" alt="ug" width="100" height="100"/></a></li> 
                 <li> <a  href ="index.php" class="menuSuperior">Inicio</a></li><!--  <img src="../src/images/../src/images/omicron.jpeg" alt="omicronn"/> -->
                 <li> <a href ="GutierrezDennis.php" class="menuSuperior">Consejos médicos</a></li><!-- comment -->
@@ -35,9 +35,8 @@
                 <li><a href="#">Formularios CRUD</a>
                 <ul class="submenu">
                     <li><a href="../php/Pacientes/Form-PacientesPresentar.php">Pacientes</a></li>
-                    <li><a href="">Aplicacion 2</a></li>
-                    <li><a href="">Aplicacion 3</a></li>
-                    <li><a href="">Aplicacion 4</a></li>
+                    <li><a href="../php/GutierrezDennis/index.php">Inventario Medicamentos</a></li>
+                    <li><a href="Form-Tapia Ramos.php">Descuentos Pacientes</a></li>
                 </ul>  
             </li>
             </ul>
