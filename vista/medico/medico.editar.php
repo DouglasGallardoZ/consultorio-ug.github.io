@@ -23,7 +23,7 @@
 
             <div class="card">
         <div class="card-header">
-            <h4>Información Paciente</h4>
+            <h4>Información Medico</h4>
         </div>
         <div class="card-body formulario">
             <form class="form" role="form" autocomplete="off" method="post">
@@ -53,14 +53,14 @@
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label class="col-lg-3 col-form-label form-control-label">Estado Civil</label>
+                    <label class="col-lg-3 col-form-label form-control-label">Especialidad</label>
                     <div class="col-lg-9">
                         <select name="txtEstadoCivil" class="form-control">
-                        <option selected="true" value="<?php echo $fila['estado_civil']?>"><?php echo $fila['estado_civil']?></option>
-                        <option class="form-control" value="Soltero">Soltero</option>
-                        <option class="form-control" value="Casado">Casado</option>
-                        <option class="form-control" value="Divorciado">Divorciado</option>
-                        <option class="form-control" value="Viudo">Viudo</option>
+                        <option selected="true" value="<?php echo $fila['especialidad']?>"><?php echo $fila['especialidad']?></option>
+                        <option class="form-control" value="Soltero">Cirujia</option>
+                        <option class="form-control" value="Casado">Ginecologia</option>
+                        <option class="form-control" value="Divorciado">Pediatria</option>
+                        <option class="form-control" value="Viudo">Medicina General</option>
                         </select>
                     </div>
                 </div>

@@ -25,11 +25,11 @@
        
         ?>
 					<div class="card-header">
-						<h4>Pacientes</h4>
+						<h4>Medicos</h4>
 					</div>
 					<div class="card-body">
                         <div>
-                        <a href="index.php?c=paciente&f=nuevo"  class="btnAgregar btn btn-success" >Agregar</a>
+                        <a href="index.php?c=medico&f=nuevo"  class="btnAgregar btn btn-success" >Agregar</a>
                         </div>
 						<div class="table-responsive">
 							<table id="userList" class="table table-bordered table-hover table-striped">
@@ -41,7 +41,7 @@
 									<th scope="col">Apellidos</th>
                                     <th scope="col">Celular</th>
 									<th scope="col">Genero</th>
-                                    <th scope="col">Estado Civil</th>
+                                    <th scope="col">Especialidad</th>
 									<th scope="col">Acciones</th>
 									<th></th>
 								</tr>
@@ -57,10 +57,10 @@
                                         <td><?php echo $fila['apellidos'] ?></td>
                                         <td><?php echo $fila['celular'] ?></td>
                                         <td><?php echo $fila['genero'] ?></td>
-                                        <td><?php echo $fila['estado_civil'] ?></td>
+                                        <td><?php echo $fila['especialidad'] ?></td>
                                         <td>
-                                        <a href="index.php?c=paciente&f=editar&id=<?php echo $fila['id']; ?>"  class="btn btn-success">Editar</a>
-                                        <a href="index.php?c=paciente&f=eliminar&id=<?php echo $fila['id'] ?>" class="btn btn-danger" onclick="if (!confirm('Esta seguro de eliminar el producto?'))
+                                        <a href="index.php?c=medico&f=editar&id=<?php echo $fila['id']; ?>"  class="btn btn-success">Editar</a>
+                                        <a href="index.php?c=medico&f=eliminar&id=<?php echo $fila['id'] ?>" class="btn btn-danger" onclick="if (!confirm('Esta seguro de eliminar?'))
                                         return false;">Eliminar</a>
                                         </td>
                                     </tr>

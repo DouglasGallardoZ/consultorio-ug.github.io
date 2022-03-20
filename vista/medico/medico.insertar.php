@@ -13,75 +13,72 @@
 		href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body class="font-body">
-    
+       
         <div>
         <?php
             include_once "vista/templates/header.php"
         ?>
         </div>
 
-
-            <div class="card">
+    <div class="card">
         <div class="card-header">
-            <h4>Información Paciente</h4>
+            <h4>Información Medico</h4>
         </div>
         <div class="card-body formulario">
             <form class="form" role="form" autocomplete="off" method="post">
-            <input type="hidden" name="txtid" value="<?php echo $fila['id'] ?>">
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Cedula</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="txtCedula" maxlength="10" value="<?php echo $fila['cedula'] ?>">
+                        <input class="form-control" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="txtCedula" maxlength="10">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Nombres</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" name="txtNombres" value="<?php echo $fila['nombres'] ?>">
+                        <input class="form-control" type="text" name="txtNombres">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Apellidos</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" name="txtApellidos" value="<?php echo $fila['apellidos'] ?>">
+                        <input class="form-control" type="text" name="txtApellidos">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label class="col-lg-3 col-form-label form-control-label">Celular</label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10" name="txtCelular" value="<?php echo $fila['celular'] ?>">
+                        <input class="form-control" type="text" name="txtCelular" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10">
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label class="col-lg-3 col-form-label form-control-label">Estado Civil</label>
+                    <label class="col-lg-3 col-form-label form-control-label">Especialidad</label>
                     <div class="col-lg-9">
                         <select name="txtEstadoCivil" class="form-control">
-                        <option selected="true" value="<?php echo $fila['estado_civil']?>"><?php echo $fila['estado_civil']?></option>
-                        <option class="form-control" value="Soltero">Soltero</option>
-                        <option class="form-control" value="Casado">Casado</option>
-                        <option class="form-control" value="Divorciado">Divorciado</option>
-                        <option class="form-control" value="Viudo">Viudo</option>
+                        <option class="form-control" value="Soltero">Cirujia</option>
+                        <option class="form-control" value="Casado">Ginecologia</option>
+                        <option class="form-control" value="Divorciado">Pediatria</option>
+                        <option class="form-control" value="Viudo">Medicina General</option>
                         </select>
                     </div>
                 </div>
                 <div class="form-group row">
-                    <label class="col-lg-3 col-form-label form-control-label">Genero</label>
+                    <label class="col-lg-3 col-form-label form-control-label"> Genero </label>
                     <div class="col-lg-9">
-                        <input class="form-control" type="select" name="cbGenero" value="<?php echo $fila['genero'] ?>">
+                        <label>Masculino<input class="form-control" type="radio" name="cbGenero" value="Masculino"></label>
+                        <label>Femenino<input class="form-control" type="radio" name="cbGenero" value="Femenino"></label>
                     </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-lg-12 text-center">
                         <a href="index.php?c=paciente&f=index" class="btn btn-secondary">Cancelar</a>
-                        <input type="submit" class="btn btn-primary" value="Actualizar">
+                        <input type="submit" class="btn btn-primary" value="Guardar">
                     </div>
                 </div>
             </form>
         </div>
 	</div>
-           
 
-    <?php
+<?php
             include_once "vista/templates/footer.php"
         ?>
 
