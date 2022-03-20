@@ -6,13 +6,13 @@
     <meta name="description" content="Tarea 2">
     <meta name="keywords" content="Consultorio médico">
     <title>Consultorio médico / Sintomas y causas</title>
-    <link href="../css/GutierrezDennis/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
+    <link href="../../assets/css/GutierrezDennis/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
 </head>
 <body>
    <div>
-        <?php
-            include_once "../php/templates/header-2.php"
+   <?php
+            include_once "../templates/header-2.php"
         ?>
    
    </div>
@@ -40,7 +40,7 @@
             <section>
                 <h2>Dolor de garganta</h2>
                 <article><br>
-                    <img src="../src/images/dolorGarganta.png" alt="Dolor de garganta" width="120" height="120">
+                    <img src="../../assets/src/images/dolorGarganta.png" alt="Dolor de garganta" width="120" height="120">
                     <h3>Dolor de garganta, síntomas y causas</h3>
                     <p>Los síntomas de un dolor de garganta pueden variar según la causa. Algunos signos y síntomas son:</p>
                         <ul>
@@ -76,7 +76,7 @@
         <section>
             <h2>Diarrea</h2>
             <article>
-                <br><img src="../src/images/diarrea.png" alt="Diarrea" width="120" height="120">
+                <br><img src="../../assets/src/images/diarrea.png" alt="Diarrea" width="120" height="120">
                 <br><h3>Diarrea, síntomas y causas</h3>
                 <p>Los signos y síntomas asociados con la diarrea (heces acuosas) pueden ser los siguientes:</p>
                     <ul>
@@ -107,7 +107,7 @@
         <section>
             <h2>Fiebre</h2>
             <article>
-                <br><br><img src="../src/images/fiebre.png" alt="Fiebre" width="120" height="120">
+                <br><br><img src="../../assets/src/images/fiebre.png" alt="Fiebre" width="120" height="120">
                 <br><h3>Fiebre, síntomas y causas</h3>
                 <p>La fiebre es una temperatura del cuerpo más elevada de lo normal. Una temperatura normal puede variar de persona a persona, pero generalmente es alrededor de 98.6 ºF o 37 ºC. La fiebre no es una enfermedad. Por lo general, es una señal de que su cuerpo está tratando de combatir una enfermedad o infección.</p>
                 <p>Las infecciones causan la mayoría de las fiebres. Tiene fiebre porque su cuerpo está tratando de matar el virus o las bacterias que causaron la infección. La mayoría de estas bacterias y virus sobreviven bien cuando su cuerpo está a su temperatura normal. Pero si tiene fiebre, es más difícil para ellos sobrevivir. La fiebre también activa el sistema inmunitario de su cuerpo.</p>
@@ -128,7 +128,7 @@
         <section>
             <h2>Cólicos</h2>
             <article>
-                <br><img src="../src/images/colico.png" alt="Colicos" width="120" height="120">
+                <br><img src="../../assets/src/images/colico.png" alt="Colicos" width="120" height="120">
                 <h3>Cólicos, síntomas y causas</h3>
                 <p>Los gritos y el llanto son normales en los bebés, especialmente durante los tres primeros meses. Y el rango de lo que es un llanto normal es difícil de precisar. En general, el cólico se define como el llanto durante tres o más horas al día, tres o más días a la semana, durante tres o más semanas.</p>
                     <p>Las características del cólico pueden incluir lo siguiente:</p>
@@ -150,7 +150,7 @@
 
 
     <?php
-            include_once "../php/templates/footer-2.php"
+            include_once "../templates/footer-2.php"
         ?>
    
 

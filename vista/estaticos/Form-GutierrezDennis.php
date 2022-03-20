@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultorio médico / Sintomas y causas</title>
-    <link rel="stylesheet" href="../css/GutierrezDennis/style.css">
-    <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
+    <link rel="stylesheet" href="../../assets/css/GutierrezDennis/style.css">
+    <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
 </head>
 <body class="font-body">
-    <script src="../js/Form-GutierrezDennis.js"></script>
+    <script src="../../assets/js/Form-GutierrezDennis.js"></script>
     <div>
     <?php
-            include_once "../php/templates/header-2.php"
+            include_once "../templates/header-2.php"
         ?>
    
     </div>
@@ -24,7 +24,7 @@
     </header>
 
     <div>
-        <img src="../src/images/darOpinion.jpg" alt="Danos tu opinión" width="600" height="480" style="position: absolute;top: 50%; left: 50%;">
+        <img src="../../assets/src/images/darOpinion.jpg" alt="Danos tu opinión" width="600" height="480" style="position: absolute;top: 50%; left: 50%;">
     </div>
     <div id="formulario" class="columna">
         <form class="form" action="">
@@ -56,7 +56,7 @@
     </div>
 
     <?php
-            include_once "../php/templates/footer-2.php"
+            include_once "../templates/footer-2.php"
         ?>
    
 </body>

@@ -9,7 +9,7 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <link href ="misEstilos.css" rel="stylesheet" type="text/css"/>
+         <link href ="../../assets/css/misEstilos.css" rel="stylesheet" type="text/css"/>
              <script type="text/javascript">
                  function validar(){
                      var form=document.form;
@@ -66,8 +66,8 @@ and open the template in the editor.
                  }
                  
                  </script>
-        <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
-        <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos2.css">
+        <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
+        <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos2.css">
     </head>
     <body>
       

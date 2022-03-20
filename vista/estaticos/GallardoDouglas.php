@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios Hospitalarios</title>
-    <link rel="stylesheet" href="../css/GallardoDouglas/style.css">
-    <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
+    <link rel="stylesheet" href="../../assets//GallardoDouglas/style.css">
+    <link rel="stylesheet" href="../../assets/PreciadoRonald/misEstilos.css">
 </head>
 <body class="font-body">
 
         <?php
-            include_once "../php/templates/header-2.php"
+            include_once "../templates/header-2.php"
         ?>
    
 
@@ -31,11 +31,11 @@
             <div class="fila">
     
                 <div class="columna">
-                    <img src="../src/images/servicio_hosp_1.png" alt="Esta es una imagen de servicio hospitalario" class="img-servicios" />
+                    <img src="../../assets/src/images/servicio_hosp_1.png" alt="Esta es una imagen de servicio hospitalario" class="img-servicios" />
                 </div>
         
                 <div class="columna">
-                    <img src="../src/images/servicio_hosp_2.png" alt="Esta es una imagen de servicio hospitalario" class="img-servicios" />
+                    <img src="../../assets/src/images/servicio_hosp_2.png" alt="Esta es una imagen de servicio hospitalario" class="img-servicios" />
                 </div>
             </div>
     
@@ -66,11 +66,11 @@
             <div class="fila">
     
                 <div class="columna">
-                    <img src="../src/images/cirugia-1.jpg" alt="Esta es una imagen de cirugía" class="img-servicios"/>
+                    <img src="../../assets/src/images/cirugia-1.jpg" alt="Esta es una imagen de cirugía" class="img-servicios"/>
                 </div>
         
                 <div class="columna">
-                    <img src="../src/images/cirugia-2.jpg" alt="Esta es una imagen de cirugía" class="img-servicios"/>
+                    <img src="../../assets/src/images/cirugia-2.jpg" alt="Esta es una imagen de cirugía" class="img-servicios"/>
                 </div>
             </div>
             <p>
@@ -106,7 +106,7 @@
 
 
     <?php
-            include_once "../php/templates/footer-2.php"
+            include_once "../templates/footer-2.php"
         ?>
 
 </body>

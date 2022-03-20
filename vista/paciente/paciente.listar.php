@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacientes</title>
-    <link rel="stylesheet" href="../../css/GallardoDouglas/style.css">
-    <link rel="stylesheet" href="../../css/GallardoDouglas/paciente.css">
-    <link rel="stylesheet" href="../../css/PreciadoRonald/misEstilos.css">
+    <link rel="stylesheet" href="../../assets/css/GallardoDouglas/style.css">
+    <link rel="stylesheet" href="../../assets/css/GallardoDouglas/paciente.css">
+    <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">	
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet"
@@ -22,9 +22,9 @@
     </div>
     <div class="card">
     <?php
-       require_once '../Conexion/Conexion.php';
+       require_once '../../config/Conexion.php';
 
-
+        $pdo = Conexion::getConexion();
         $sql = "select * from paciente";
         $stmt = $pdo->prepare($sql);
         $stmt->execute();
@@ -34,7 +34,7 @@
 					</div>
 					<div class="card-body">
                         <div>
-                        <a href="insertar.php"  class="btnAgregar btn btn-success" >Agregar</a>
+                        <a href="paciente.insertar.php"  class="btnAgregar btn btn-success" >Agregar</a>
                         </div>
 						<div class="table-responsive">
 							<table id="userList" class="table table-bordered table-hover table-striped">
@@ -65,8 +65,8 @@
                                         <td><?php echo $fila['genero'] ?></td>
                                         <td><?php echo $fila['estado_civil'] ?></td>
                                         <td>
-                                        <a href="editar.php?id=<?php echo $fila['id'] ?>" class="btn btn-success">Editar</a>
-                                        <a href="eliminar.php?id=<?php echo $fila['id'] ?>" class="btn btn-danger">Eliminar</a>
+                                        <a href="paciente.editar.php?id=<?php echo $fila['id'] ?>" class="btn btn-success">Editar</a>
+                                        <a href="paciente.eliminar.php?id=<?php echo $fila['id'] ?>" class="btn btn-danger">Eliminar</a>
                                         </td>
                                     </tr>
                                 <?php } ?>

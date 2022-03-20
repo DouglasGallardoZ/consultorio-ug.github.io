@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicitar servicio</title>
-    <link rel="stylesheet" href="../css/GallardoDouglas/style.css">
-    <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
+    <link rel="stylesheet" href="../../assets/css/GallardoDouglas/style.css">
+    <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
 </head>
 <body class="font-body">
 
     <div>
         <?php
-            include_once "../php/templates/header-2.php"
+            include_once "../templates/header-2.php"
         ?>
     </div>
 
@@ -24,7 +24,7 @@
         </section>
 
         <div>
-            <img src="../src/images/servicio_hosp_1.png" alt="Esta es una imagen de servicio hospitalario" class="img-servicios" />
+            <img src="../../assets/src/images/servicio_hosp_1.png" alt="Esta es una imagen de servicio hospitalario" class="img-servicios" />
         </div>
 
     </div>
@@ -67,7 +67,7 @@
 
 
     <?php
-            include_once "../php/templates/footer-2.php"
+            include_once "../templates/footer-2.php"
         ?>
     <!--script src="../js/GallardoDouglas.js" type="text/javascript"></!--script-->
     <script>

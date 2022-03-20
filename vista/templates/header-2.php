@@ -21,7 +21,7 @@
                 <li> <a href ="GallardoDouglasEspecialidades.php" class="menuSuperior">Especialidades</a></li> 
                 <li><a href="#">Formularios CRUD</a>
                 <ul class="submenu">
-                    <li><a href="../php/Pacientes/Form-PacientesPresentar.php">Pacientes</a></li>
+                    <li><a href="../paciente/paciente.listar.php">Pacientes</a></li>
                     <li><a href="../php/GutierrezDennis/index.php">Inventario Medicamentos</a></li>
                     <li><a href="Form-Tapia Ramos.php">Descuentos Pacientes</a></li>
                 </ul>  

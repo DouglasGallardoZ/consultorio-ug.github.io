@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promocion</title>
-    <link rel="stylesheet" href="../css/TapiaJonathan/normalize.css">
-    <link rel="stylesheet" href="../css/TapiaJonathan/style.css">
-    <link rel="stylesheet" href="../css/PreciadoRonald/misEstilos.css">
-    <link rel="stylesheet" href="../css/TapiaJonathan/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/TapiaJonathan/main.css">
+    <link rel="stylesheet" href="../../assets/css/TapiaJonathan/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/TapiaJonathan/style.css">
+    <link rel="stylesheet" href="../../assets/css/PreciadoRonald/misEstilos.css">
+    <link rel="stylesheet" href="../../assets/css/TapiaJonathan/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/TapiaJonathan/main.css">
 
 
 
@@ -19,26 +19,26 @@
 
     <div>
         <?php
-            include_once "../php/templates/header-2.php"
+            include_once "../templates/header-2.php"
         ?>
    
     </div>
     <div class="carousel slide" id="mainSlider" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../Img/promo1.jpg" alt="" class="d-block w-100">
+                <img src="../../assets/Img/promo1.jpg" alt="" class="d-block w-100">
 
 
             </div>
 
             <div class="carousel-item">
-                <img src="../Img/promo2.jpg" alt="" class="d-block w-100">
+                <img src="../../assets/Img/promo2.jpg" alt="" class="d-block w-100">
 
 
             </div>
 
             <div class="carousel-item">
-                <img src="../Img/promo3.jpg" alt="" class="d-block w-100">
+                <img src="../../assets/Img/promo3.jpg" alt="" class="d-block w-100">
 
 
             </div>
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="../Img/oferta3.jpg" class="card-img-top" alt="...">
+                        <img src="../../assets/Img/oferta3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Promocion Dia de la Mujer</h5>
                             <p class="card-text">Esta Promocio es por el dia de la mujer tiene un descuento del 50%</p>
@@ -68,7 +68,7 @@
 
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="../Img/oferta1.png" class="card-img-top" alt="...">
+                        <img src="../../assets/Img/oferta1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Promocion para adulto mayores</h5>
                             <p class="card-text">Esta Promocio es por el dia de la mujer tiene un descuento del 30%</p>
@@ -79,7 +79,7 @@
 
                 <div class="col-sm">
                     <div class="card w-100 card-border mb-5">
-                        <img src="../Img/oferta4.jpg" class="card-img-top" alt="..." height="315px">
+                        <img src="../../assets/Img/oferta4.jpg" class="card-img-top" alt="..." height="315px">
                         <div class="card-body">
                             <h5 class="card-title">Promcion de discapacitado</h5>
                             <p class="card-text">Aprovehca las oferta para los discapacitado.</p>
@@ -94,7 +94,7 @@
     </div>
 
     <?php
-            include_once "../php/templates/footer-2.php"
+            include_once "../templates/footer-2.php"
         ?>
    
 
